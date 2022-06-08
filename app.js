@@ -24,10 +24,9 @@ if (guessedNumber == magicNumber) {
 // Exercise 2
 let birthMonth = prompt("What month were you born?")
 
- switch (birthMonth){
+
+ switch (birthMonth.toLowerCase){
      case "janurary":
-         console.log("You are a Winter baby")
-         break;
      case "feburary":
         console.log("You are a Winter baby")
          break;
