@@ -4,12 +4,20 @@ console.log("Follow the steps in the README.md file to complete the exercises:\n
 // Exercise 1
 let magicNumber = 3
 let guessedNumber = prompt("What's the magic number?")
+//guessedNumber = parsint(guessedNumber)
+
+//if (isNaN(guessedNumber)){
+//    console.log("invalid input. give me a real number")
+//}
 
 if (guessedNumber == magicNumber) {
+    alert("Congratulations! You guessed it!")
     console.log("Congratulations! You guessed it!");}
     else if (guessedNumber > magicNumber){
+        alert("That's too high...Try again")
     console.log("That's too high...Try again");}
     else if (guessedNumber < magicNumber){
+        alert("That's too low...Try again")
         console.log("That's too low...Try again")
     }
 
